@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "sass": "node-sass -w calc-app.scss src/calc-app.css",
+    "sass": "npx node-sass -w src/calc-app.scss calc-app.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

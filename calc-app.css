@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;800&display=swap");
+.calcApp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+  background: #626f82;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 200px; }
+  .calcApp__resultWindow {
+    border-radius: 6px;
+    padding-right: 2px;
+    padding: 0;
+    margin: 8px;
+    background: #ececea;
+    width: 400px;
+    color: blak;
+    text-align: right;
+    font-size: 50px;
+    height: 64px; }
+
+.calcApp-board {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr; }
+  .calcApp-board__button {
+    width: 30px;
+    font-size: 24px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    background: #434b56;
+    border-radius: 4px; }
+    .calcApp-board__button--counter {
+      background: #c8c2b6; }
+    .calcApp-board__button--reset {
+      background: red;
+      color: white; }

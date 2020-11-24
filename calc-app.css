@@ -1,39 +1,55 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
 .calcApp {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Rubik", sans-serif;
-  background: #626f82;
-  padding: 10px;
-  border-radius: 10px;
-  max-width: 200px; }
+  background: #16253D;
+  padding: 0;
+  margin: 0;
+  max-width: 320px;
+  max-height: 720px; }
   .calcApp__resultWindow {
-    border-radius: 6px;
-    padding-right: 2px;
-    padding: 0;
-    margin: 8px;
-    background: #ececea;
-    width: 400px;
-    color: blak;
-    text-align: right;
+    border: none;
+    padding-top: 140px;
+    padding-right: 1px;
+    margin: 0;
+    background: #16253D;
+    width: 100%;
+    color: #F9F9F9;
+    text-align: end;
     font-size: 50px;
-    height: 64px; }
+    height: 200px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400; }
 
 .calcApp-board {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr; }
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  column-gap: 2px;
+  row-gap: 2px; }
   .calcApp-board__button {
-    width: 30px;
-    font-size: 24px;
+    color: #16253D;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    width: 78px;
+    height: 78px;
+    font-size: 20px;
     text-align: center;
-    padding: 5px;
-    margin: 5px;
-    background: #434b56;
-    border-radius: 4px; }
+    padding: 0;
+    margin: 0;
+    background: #D8D8D6;
+    border: none; }
     .calcApp-board__button--counter {
-      background: #c8c2b6; }
+      background: #A0B3C1; }
     .calcApp-board__button--reset {
-      background: red;
-      color: white; }
+      background: #80C6D6; }

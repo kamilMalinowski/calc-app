@@ -57,10 +57,22 @@ body {
       color: #d8d8d6;
       transform: scale(0.9); }
     .calcApp-board__button--counter {
-      background: #a0b3c1; }
+      cursor: pointer;
+      transition: 0.1s linear;
+      background: #a0b3c1;
+      outline: none;
+      border: none; }
       .calcApp-board__button--counter:active {
+        color: #d8d8d6;
+        transform: scale(0.9);
         background: #5f4c3e; }
     .calcApp-board__button--reset {
-      background: #80c6d6; }
+      cursor: pointer;
+      transition: 0.1s linear;
+      border: none;
+      background: #80c6d6;
+      outline: none; }
       .calcApp-board__button--reset:active {
+        color: #d8d8d6;
+        transform: scale(0.9);
         background: #7f3929; }

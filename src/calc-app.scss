@@ -64,14 +64,26 @@ body {
       transform: scale(0.9);
     }
     &--counter {
+      cursor: pointer;
+      transition: 0.1s linear;
       background: #a0b3c1;
+      outline: none;
+      border: none;
       &:active {
+        color: #d8d8d6;
+        transform: scale(0.9);
         background: #5f4c3e;
       }
     }
     &--reset {
+      cursor: pointer;
+      transition: 0.1s linear;
+      border: none;
       background: #80c6d6;
+      outline: none;
       &:active {
+        color: #d8d8d6;
+        transform: scale(0.9);
         background: #7f3929;
       }
     }

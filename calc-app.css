@@ -12,7 +12,7 @@ body {
   padding: 0; }
 
 .calcApp {
-  background: #16253D;
+  background: #16253d;
   padding: 0;
   margin: 0;
   max-width: 320px;
@@ -22,13 +22,13 @@ body {
     padding-top: 140px;
     padding-right: 1px;
     margin: 0;
-    background: #16253D;
+    background: #16253d;
     width: 100%;
-    color: #F9F9F9;
+    color: #f9f9f9;
     text-align: end;
     font-size: 50px;
     height: 200px;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     font-weight: 400; }
 
 .calcApp-board {
@@ -38,8 +38,9 @@ body {
   column-gap: 2px;
   row-gap: 2px; }
   .calcApp-board__button {
-    color: #16253D;
-    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+    color: #16253d;
+    font-family: "Nunito", sans-serif;
     font-weight: 600;
     width: 78px;
     height: 78px;
@@ -47,9 +48,19 @@ body {
     text-align: center;
     padding: 0;
     margin: 0;
-    background: #D8D8D6;
-    border: none; }
+    background: #d8d8d6;
+    border: none;
+    outline: none;
+    transition: 0.1s linear; }
+    .calcApp-board__button:active {
+      background: #272729;
+      color: #d8d8d6;
+      transform: scale(0.9); }
     .calcApp-board__button--counter {
-      background: #A0B3C1; }
+      background: #a0b3c1; }
+      .calcApp-board__button--counter:active {
+        background: #5f4c3e; }
     .calcApp-board__button--reset {
-      background: #80C6D6; }
+      background: #80c6d6; }
+      .calcApp-board__button--reset:active {
+        background: #7f3929; }

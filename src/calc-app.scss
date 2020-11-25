@@ -42,7 +42,9 @@ body {
   grid-template-rows: 1fr 1fr 1fr 1fr;
   column-gap: 2px;
   row-gap: 2px;
+ 
   &__button {
+    
     cursor: pointer;
     color: #16253d;
     font-family: "Nunito", sans-serif;
@@ -74,6 +76,15 @@ body {
       &:active {
         color: #d8d8d6;
         background: #7f3929;
+      }
+    }
+    &--equal {
+      width:100%;
+      background: #b1d676;
+      grid-column: 1 /5;
+      &:active {
+        color: #d8d8d6;
+        background: #4e2989;
       }
     }
   }

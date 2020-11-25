@@ -66,3 +66,10 @@ body {
       .calcApp-board__button--reset:active {
         color: #d8d8d6;
         background: #7f3929; }
+    .calcApp-board__button--equal {
+      width: 100%;
+      background: #b1d676;
+      grid-column: 1 /5; }
+      .calcApp-board__button--equal:active {
+        color: #d8d8d6;
+        background: #4e2989; }

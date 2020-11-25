@@ -1,50 +1,33 @@
+//GREETING
 console.log("Hello there");
 
-//plus
-const plus = document.querySelector(".plus--js");
-const plusSign = "+";
-plus.addEventListener("click", () => {
+//NUMBERS
+// 1.
+// 2.
+// 3.
+// 4.
+// 5.
+// 6.
+// 7.
+// 8.
+// 9.
+const keys = document.querySelector(".keys--js");
+const display = document.querySelector(".display--js");
 
-  const window = document.querySelector(".window--js");
-  window.innerHTML += plusSign;
-  console.log("+");
+keys.addEventListener("click", (event) => {
+  if (!event.target.closest("button")) return;
+
+  const key = event.target;
+  const keyValue = key.textContent;
+  const displayValue = display.textContent;
+
+  if (displayValue === "0") {
+    display.textContent = keyValue;
+
+  } else {
+    display.textContent = displayValue + keyValue;
+  }
+  console.log(keyValue);
 });
 
-//minus
-const minus = document.querySelector(".minus--js");
-const minusSign = "-";
-minus.addEventListener("click", () => {
 
-  const window = document.querySelector(".window--js");
-  window.innerHTML += minusSign;
-  console.log("-");
-});
-
-//multi
-const multi = document.querySelector(".multi--js");
-const multiSign = "x";
-multi.addEventListener("click", () => {
-
-  const window = document.querySelector(".window--js");
-  window.innerHTML += multiSign;
-  console.log("x");
-});
-
-//division
-const division = document.querySelector(".division--js");
-const divisionSign = "/";
-division.addEventListener("click", () => {
-
-  const window = document.querySelector(".window--js");
-  window.innerHTML += divisionSign;
-  console.log("/");
-});
-
-//reset
-const reset = document.querySelector(".reset--js");
-
-reset.addEventListener("click", () => {
-  const window = document.querySelector(".window--js");
-  window.innerHTML = null;
-  console.log("reset");
-});

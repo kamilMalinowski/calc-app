@@ -5,11 +5,10 @@
   "main": "calc-app.js",
   "dependencies": {
     "node-sass": "^5.0.0",
-    "normalize": "^0.3.1"
   },
   "devDependencies": {},
   "scripts": {
-    "sass": "npx node-sass -w src/calc-app.scss calc-app.css",
+    "sass": "npx node-sass -w calc-app.scss calc-app.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

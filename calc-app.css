@@ -9,14 +9,14 @@ html {
 
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  background: #b1d676; }
 
 .calculator {
   background: #16253d;
   padding: 0;
   margin: 0;
-  max-width: 320px;
-  max-height: 720px; }
+  width: 100%; }
   .calculator__display {
     border: none;
     padding-top: 140px;
@@ -38,15 +38,15 @@ body {
   column-gap: 2px;
   row-gap: 2px; }
   .calculator-keys__button {
+    justify-self: stretch;
+    align-self: stretch;
     cursor: pointer;
     color: #16253d;
     font-family: "Nunito", sans-serif;
     font-weight: 600;
-    width: 78px;
-    height: 78px;
     font-size: 20px;
     text-align: center;
-    padding: 0;
+    padding: 30px;
     margin: 0;
     background: #d8d8d6;
     border: none;

@@ -7,33 +7,33 @@
     <link href="calc-app.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <div class="calcApp">
-      <div class="calcApp__resultWindow display--js">0</div>
-      <div class="calcApp-board keys--js">
-        <button class="calcApp-board__button seven--js">7</button>
-        <button class="calcApp-board__button eight--js">8</button>
-        <button class="calcApp-board__button nine--js">9</button>
+    <div class="calculator calculator--js">
+      <div class="calculator__display display--js">0</div>
+      <div class="calculator-keys keys--js">
+        <button class="calculator-keys__button" data-key="seven" data-type="number">7</button>
+        <button class="calculator-keys__button" data-key="eight" data-type="number">8</button>
+        <button class="calculator-keys__button" data-key="nine" data-type="number">9</button>
 
-        <button class="calcApp-board__button calcApp-board__button--counter division--js">/</button>
+        <button class="calculator-keys__button calculator-keys__button--operator" data-key="division" data-type="operator">/</button>
 
-        <button class="calcApp-board__button four--js">4</button>
-        <button class="calcApp-board__button five--js">5</button>
-        <button class="calcApp-board__button six--js">6</button>
+        <button class="calculator-keys__button" data-key="four" data-type="number">4</button>
+        <button class="calculator-keys__button" data-key="five" data-type="number">5</button>
+        <button class="calculator-keys__button" data-key="six" data-type="number">6</button>
 
-        <button class="calcApp-board__button calcApp-board__button--counter multi--js">x</button>
+        <button class="calculator-keys__button calculator-keys__button--operator" data-key="multi" data-type="operator">x</button>
 
-        <button class="calcApp-board__button one--js">1</button>
-        <button class="calcApp-board__button two--js">2</button>
-        <button class="calcApp-board__button three--js">3</button>
+        <button class="calculator-keys__button" data-key="one" data-type="number">1</button>
+        <button class="calculator-keys__button" data-key="two" data-type="number">2</button>
+        <button class="calculator-keys__button" data-key="three" data-type="number">3</button>
 
-        <button class="calcApp-board__button calcApp-board__button--counter minus--js">-</button>
+        <button class="calculator-keys__button calculator-keys__button--operator" data-key="minus" data-type="operator">-</button>
 
-        <button class="calcApp-board__button zero--js">0</button>
+        <button class="calculator-keys__button" data-key="zero" data-type="number">0</button>
 
-        <button class="calcApp-board__button calcApp-board__button--counter plus--js">+</button>
-        <button class="calcApp-board__button calcApp-board__button--counter decimal--js">.</button>
-        <button class="calcApp-board__button calcApp-board__button--reset reset--js">C</button>
-        <button class="calcApp-board__button calcApp-board__button--equal equal--js">=</button>
+        <button class="calculator-keys__button calculator-keys__button--operator" data-key="plus" data-type="operator">+</button>
+        <button class="calculator-keys__button calculator-keys__button--operator" data-key="decimal" data-type="number">.</button>
+        <button class="calculator-keys__button calculator-keys__button--reset reset--js" data-type="operator">C</button>
+        <button class="calculator-keys__button calculator-keys__button--equal equal--js" data-type="equal">=</button>
       </div>
     </div>
     <script src="calc-app.js"></script>

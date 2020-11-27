@@ -14,13 +14,13 @@ body {
 }
 
 //calculator style
-.calcApp {
+.calculator {
   background: #16253d;
   padding: 0;
   margin: 0;
   max-width: 320px;
   max-height: 720px;
-  &__resultWindow {
+  &__display {
     border: none;
     padding-top: 140px;
     padding-right: 1px;
@@ -36,15 +36,13 @@ body {
   }
 }
 
-.calcApp-board {
+.calculator-keys {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   column-gap: 2px;
   row-gap: 2px;
- 
   &__button {
-    
     cursor: pointer;
     color: #16253d;
     font-family: "Nunito", sans-serif;
@@ -64,9 +62,13 @@ body {
       color: #d8d8d6;
       transform: scale(0.9);
     }
-    &--counter {
+    &--operator {
       background: #a0b3c1;
       &:active {
+        color: #d8d8d6;
+        background: #5f4c3e;
+      }
+      &:focus {
         color: #d8d8d6;
         background: #5f4c3e;
       }

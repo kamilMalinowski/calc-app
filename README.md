@@ -1,6 +1,11 @@
 # CALCULATOR APP
 
-I learn JavaScript watching Vanilia Javascript
+I learn JavaScript watching Vanilia Javascript:
+
+![calculator roboto](https://mir-s3-cdn-cf.behance.net/project_modules/disp/371ef581165393.5cf84638cf360.jpg "calculator roboto")
+
+
+1. [part1](https://www.youtube.com/watch?v=f0SG2j6d-Kg)
 
 ```javascript
 //GREETING
@@ -57,3 +62,5 @@ keys.addEventListener("click", (event) => {
   calculator.dataset.previousKeyType = type; //???
 });
 ```
+
+2. [part2](https://www.youtube.com/watch?v=G_z39jRHu2M&t=706s) **comming soon**
